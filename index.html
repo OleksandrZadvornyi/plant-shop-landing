@@ -1,127 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito:wght@700;900&family=Poppins:wght@500&family=Raleway:wght@500&family=Work+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Plant shop</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
+      <div class="plant-img"></div>
+      <div class="top-line-links">
+        <img
+          class="polygon"
+          src="/images/polygon.svg"
+          alt="Green Polygon"
+          width="36"
+          height="36"
+        />
+        <span class="p-letter">P</span>
+        <img
+          class="search"
+          src="/images/search.svg"
+          alt="Search Icon"
+          width="20"
+          height="20"
+        />
+        <img
+          class="shopping-cart"
+          src="/images/shopping-cart.svg"
+          alt="Shopping Cart Icon"
+          width="20"
+          height="20"
+        />
+        <a class="sign-up-link" href="javascript:void(0)">Sign Up</a>
+        <button class="sign-in-btn">Sign In</button>
+      </div>
+
+      <div class="header-text-content">
         <h1>Kembang Flower Mantap</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s.</p>
-        <img src="images/plant-in-a-vase.jpg" alt="Plant in a vase">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s.
+        </p>
+      </div>
+
+      <div class="go-back-btn header-nav-btn">
+        <div class="arrow-nav">
+          <div class="arrow-back"></div>
+          <span>Previous</span>
+        </div>
+
+        <h3>Kaktus Plant</h3>
+      </div>
+
+      <div class="go-forward-btn header-nav-btn">
+        <div class="arrow-nav">
+          <span>Next</span>
+          <div class="arrow-forward"></div>
+        </div>
+
+        <h3>Rahasia Plant</h3>
+      </div>
     </header>
 
     <main>
-        <div>
-            <section>
-                <h4>Fast delivery</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard </p>
-            </section>
+      <div>
+        <section>
+          <h4>Fast delivery</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard
+          </p>
+        </section>
 
-            <section>
-                <h4>Great Customer Service</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard </p>
-            </section>
+        <section>
+          <h4>Great Customer Service</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard
+          </p>
+        </section>
 
-            <section>
-                <h4>Original Plants</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard </p>
-            </section>
+        <section>
+          <h4>Original Plants</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard
+          </p>
+        </section>
 
-            <section>
-                <h4>Affordable price</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard </p>
-            </section>
-        </div>
+        <section>
+          <h4>Affordable price</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard
+          </p>
+        </section>
+      </div>
 
-        <div>
-            <h3>Featured Plants</h3>
-            <select name="filter" id="filter">
-                <option value="cheaper">Cheaper First</option>
-                <option value="expensive">Expensive First</option>
-                <option value="popular">Popular First</option>
-            </select>
-            <hr>
-            <section>
-                <img src="images/kaktus-plant.png" alt="Kaktus Plants">
-                <h4>Kaktus Plants</h4>
-                <p>IDR 85.000</p>
-            </section>
+      <div>
+        <h3>Featured Plants</h3>
+        <select name="filter" id="filter">
+          <option value="cheaper">Cheaper First</option>
+          <option value="expensive">Expensive First</option>
+          <option value="popular">Popular First</option>
+        </select>
+        <hr />
+        <section>
+          <img src="images/kaktus-plant.png" alt="Kaktus Plants" />
+          <h4>Kaktus Plants</h4>
+          <p>IDR 85.000</p>
+        </section>
 
-            <section>
-                <img src="images/landark-plant.png" alt="Landark Plants">
-                <h4>Landark Plants</h4>
-                <p>IDR 105.000</p>
-            </section>
+        <section>
+          <img src="images/landark-plant.png" alt="Landark Plants" />
+          <h4>Landark Plants</h4>
+          <p>IDR 105.000</p>
+        </section>
 
-            <section>
-                <img src="images/kecubung-plant.png" alt="Kecubung Plants">
-                <h4>Kecubung Plants</h4>
-                <p>IDR 85.000</p>
-            </section>
+        <section>
+          <img src="images/kecubung-plant.png" alt="Kecubung Plants" />
+          <h4>Kecubung Plants</h4>
+          <p>IDR 85.000</p>
+        </section>
 
-            <section>
-                <img src="images/kecubung-plant2.png" alt="Kecubung Plants">
-                <h4>Kecubung Plants</h4>
-                <p>IDR 85.000</p>
-            </section>
+        <section>
+          <img src="images/kecubung-plant2.png" alt="Kecubung Plants" />
+          <h4>Kecubung Plants</h4>
+          <p>IDR 85.000</p>
+        </section>
 
-            <section>
-                <img src="images/kecubung-plant3.png" alt="Kecubung Plants">
-                <h4>Kecubung Plants</h4>
-                <p>IDR 85.000</p>
-            </section>
-        </div>
+        <section>
+          <img src="images/kecubung-plant3.png" alt="Kecubung Plants" />
+          <h4>Kecubung Plants</h4>
+          <p>IDR 85.000</p>
+        </section>
+      </div>
 
-        <div>
-            <h2>Buy more plants, it helps you to be relaxed</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida gravida aliquam. Pellentesque et
-                lobortis nisl. Sed et mauris justo. Nulla eu enim non mauris maximus dignissim. Maecenas vitae eros
-                sapien. Quisque pellentesque tempus dignissim.</p>
-            <img src="images/plant-with-a-mirror.jpg" alt="Plant and a mirror">
-            <img src="images/wall-of-plants.jpg" alt="Plants on the wall">
-        </div>
+      <div>
+        <h2>Buy more plants, it helps you to be relaxed</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida
+          gravida aliquam. Pellentesque et lobortis nisl. Sed et mauris justo.
+          Nulla eu enim non mauris maximus dignissim. Maecenas vitae eros
+          sapien. Quisque pellentesque tempus dignissim.
+        </p>
+        <img src="images/plant-with-a-mirror.jpg" alt="Plant and a mirror" />
+        <img src="images/wall-of-plants.jpg" alt="Plants on the wall" />
+      </div>
 
-        <div>
-            <h2>Get your favourite plant on our shop now</h2>
-            <button>Visit Shop</button>
-            <img src="images/plant-in-a-hand.jpg" alt="Plant in a hand">
-        </div>
+      <div>
+        <h2>Get your favourite plant on our shop now</h2>
+        <button>Visit Shop</button>
+        <img src="images/plant-in-a-hand.jpg" alt="Plant in a hand" />
+      </div>
     </main>
 
     <footer>
-        <div>
-            PLANTKU
-            <h3>Plantku House</h3>
-            <p>Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55282</p>
-        </div>
+      <div>
+        PLANTKU
+        <h3>Plantku House</h3>
+        <p>
+          Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta,
+          Daerah Istimewa Yogyakarta 55282
+        </p>
+      </div>
 
-        <div>
-            <h3>Perusahaan</h3>
-            <p>Tentang Kami</p>
-            <p>Hubungu Kami</p>
-        </div>
+      <div>
+        <h3>Perusahaan</h3>
+        <p>Tentang Kami</p>
+        <p>Hubungu Kami</p>
+      </div>
 
-        <div>
-            <h3>Produk</h3>
-            <p>Tanaman</p>
-            <p>Tanaman Lain</p>
-        </div>
+      <div>
+        <h3>Produk</h3>
+        <p>Tanaman</p>
+        <p>Tanaman Lain</p>
+      </div>
 
-        <div>
-            <h3>Berlangganan Email Kami</h3>
-            <input type="email" name="email" id="email">
-            <button>Submit</button>
-        </div>
+      <div>
+        <h3>Berlangganan Email Kami</h3>
+        <input type="email" name="email" id="email" />
+        <button>Submit</button>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

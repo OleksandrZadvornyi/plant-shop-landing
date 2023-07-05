@@ -1,0 +1,177 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --kq-black: #2c1500;
+  --akana-green: #156963;
+  --gray-1: #333;
+  --white: #FFF;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  position: relative;
+}
+
+.top-line-links {
+  position: absolute;
+  display: flex;
+  width: 91.25%;
+  top: 60px;
+  left: 4.375%;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.polygon {
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+}
+
+.p-letter {
+  position: absolute;
+  left: 14px;
+
+  color: #fff;
+  font-size: 12px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.search,
+.shopping-cart {
+  cursor: pointer;
+}
+
+.sign-up-link {
+  color: var(--akana-green, #156963);
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.sign-in-btn {
+  color: #fff;
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+
+  background: var(--akana-green, #156963);
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.plant-img {
+  background-image: url("images/plant-in-a-vase.jpg");
+  width: 47.5%;
+  height: 740px;
+  background-size: cover;
+  background-position-y: 15%;
+}
+
+.header-text-content {
+  margin: 186px auto 0 auto;
+  position: relative;
+}
+
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 68px;
+  color: var(--akana-green, #156963);
+  width: 524px;
+}
+
+.header-text-content p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  font-size: 18px;
+  color: var(--kq-black, #2c1500);
+  width: 492px;
+  margin-top: 24px;
+}
+
+.header-nav-btn {
+  width: 25%;
+  min-height: 160px;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+}
+
+.arrow-back {
+  background-color: rgba(170, 170, 170, 1);
+  -webkit-mask: url("/images/arrow-back-outline.svg") no-repeat center;
+  mask: url("/images/arrow-back-outline.svg") no-repeat center;
+  width: 32px;
+  height: 32px;
+}
+
+.arrow-forward {
+  background-color: rgba(170, 170, 170, 1);
+  -webkit-mask: url("/images/arrow-forward-outline.svg") no-repeat center;
+  mask: url("/images/arrow-forward-outline.svg") no-repeat center;
+  width: 32px;
+  height: 32px;
+}
+
+.header-nav-btn h3 {
+  color: var(--akana-green, #156963);
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.go-back-btn {
+  margin-left: 50%;
+}
+
+.go-back-btn h3 {
+  margin: 14px 0 0 50px;
+}
+
+.go-forward-btn {
+  margin-left: 75%;
+  background: var(--akana-green, #156963);
+}
+
+.go-forward-btn h3 {
+  margin: 14px 0 0 50px;
+  color: var(--white, #FFF);
+}
+
+.header-nav-btn span {
+  color: rgba(170, 170, 170, 1);
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.arrow-nav {
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  gap: 8px;
+}
