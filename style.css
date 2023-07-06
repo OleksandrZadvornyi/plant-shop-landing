@@ -8,8 +8,10 @@
 :root {
   --kq-black: #2c1500;
   --akana-green: #156963;
+  --akana-bg: #fafefe;
   --gray-1: #333;
-  --white: #FFF;
+  --gray-5: #e0e0e0;
+  --white: #fff;
 }
 
 /* Header styles */
@@ -42,9 +44,7 @@ header {
   color: #fff;
   font-size: 12px;
   font-family: "Nunito", sans-serif;
-  font-style: normal;
   font-weight: 900;
-  line-height: normal;
   cursor: pointer;
 }
 
@@ -57,7 +57,6 @@ header {
   color: var(--akana-green, #156963);
   font-family: "Nunito", sans-serif;
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
   line-height: 20px;
   text-decoration: none;
@@ -67,7 +66,6 @@ header {
   color: #fff;
   font-size: 14px;
   font-family: "Nunito", sans-serif;
-  font-style: normal;
   font-weight: 700;
   line-height: 20px;
 
@@ -136,9 +134,7 @@ header h1 {
   color: var(--akana-green, #156963);
   font-size: 32px;
   font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 
 .go-back-btn {
@@ -156,16 +152,14 @@ header h1 {
 
 .go-forward-btn h3 {
   margin: 14px 0 0 50px;
-  color: var(--white, #FFF);
+  color: var(--white, #fff);
 }
 
 .header-nav-btn span {
   color: rgba(170, 170, 170, 1);
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 
 .arrow-nav {
@@ -174,4 +168,221 @@ header h1 {
   align-items: center;
   margin-left: 50px;
   gap: 8px;
+}
+
+/* Main Styles */
+.features-container {
+  display: flex;
+  margin: 140px auto 0 auto;
+  max-width: 92.65625%;
+  justify-content: space-between;
+}
+
+.features-container section {
+  max-width: 25%;
+  border: 1px solid var(--gray-5, #e0e0e0);
+}
+
+.icon-text-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 22px 0 0 16px;
+}
+
+.icon-text-wrapper h4 {
+  display: inline-block;
+  color: var(--akana-green, #156963);
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.features-container > section > p {
+  margin: 16px 16px 20px 16px;
+  color: var(--kq-black, #2c1500);
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+  max-width: 236px;
+}
+
+.featured-plants-wrapper {
+  margin: 84px auto 0 auto;
+  max-width: 92.65625%;
+}
+
+.plant-selection-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.plant-selection-header > h3 {
+  color: #000;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.plant-selection-header > select {
+  color: #000;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+
+  padding: 8px 12px;
+  border: 1px solid var(--gray-5, #e0e0e0);
+  background: var(--white, #fff);
+}
+
+.featured-plants-wrapper hr {
+  color: var(--gray-5, #e0e0e0);
+}
+
+.plants-imgs-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0 90px 0;
+  flex-wrap: wrap;
+}
+
+.featured-plant-img {
+  min-width: 216px;
+  width: 100%;
+  min-height: 216px;
+  background-color: rgba(245, 245, 245, 1);
+  margin-bottom: 16px;
+  background-repeat: no-repeat;
+}
+
+.kaktus-plant {
+  background-image: url("/images/kaktus-plant.png");
+  background-size: 330px;
+  background-position: 50% 65%;
+}
+
+.landark-plant {
+  background-image: url("/images/landark-plant.png");
+  background-size: 216px;
+  background-position: 50% 0%;
+}
+
+.kecubung-plant {
+  background-image: url("/images/kecubung-plant.png");
+  background-size: 216px;
+  background-position: 50% 40%;
+}
+
+.kecubung-plant2 {
+  background-image: url("/images/kecubung-plant2.png");
+  background-size: 250px;
+  background-position: 50% -300%;
+}
+
+.kecubung-plant3 {
+  background-image: url("/images/kecubung-plant3.png");
+  background-size: 350px;
+  background-position: 50% -200%;
+}
+
+.plants-imgs-wrapper > section > h4 {
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.plants-imgs-wrapper > section > p {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.buy-more-plants-section {
+  max-width: 92.65625%;
+  margin: 0 auto;
+}
+
+.buy-more-plants-section > h2 {
+  color: var(--kq-black, #2c1500);
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-left: 22px;
+  padding-top: 10px;
+}
+
+.buy-more-plants-section > p {
+  color: var(--kq-black, #2c1500);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 16px;
+  margin-left: 22px;
+  max-width: 506px;
+}
+
+.plant-with-a-mirror-img {
+  max-width: 568px;
+  min-height: 250px;
+  background-image: url("/images/plant-with-a-mirror.jpg");
+  background-size: cover;
+  background-position: 0 -80px;
+  background-repeat: no-repeat;
+  margin-top: 74px;
+}
+
+.wall-of-plants-img {
+  width: 513px;
+  min-height: 610px;
+  background-image: url("/images/wall-of-plants.jpg");
+  background-size: cover;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  float: right;
+  margin-left: 110px;
+}
+
+.get-your-plant-section {
+  clear: both;
+  margin: 80px auto;
+  max-width: 92.65625%;
+  min-height: 360px;
+  background-color: #f3f4f6;
+  background-image: url("/images/plant-in-a-hand.jpg");
+  background-size: 400px;
+  background-position: 95% 70%;
+  background-repeat: no-repeat;
+}
+
+.get-your-plant-section > h2 {
+  color: var(--kq-black, #2c1500);
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  padding: 88px 0 32px 98px;
+  max-width: 580px;
+}
+
+.get-your-plant-section > button {
+  padding: 10px 20px;
+  border: 1px solid var(--akana-green, #156963);
+  background: var(--akana-green, #156963);
+  color: var(--akana-bg, #fafefe);
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  max-width: 152px;
+  width: 100%;
+  margin-left: 98px;
 }

@@ -72,9 +72,17 @@
     </header>
 
     <main>
-      <div>
+      <div class="features-container">
         <section>
-          <h4>Fast delivery</h4>
+          <div class="icon-text-wrapper">
+            <img
+              src="/images/fast.svg"
+              alt="Fast Car Icon"
+              width="48"
+              height="48"
+            />
+            <h4>Fast<br />delivery</h4>
+          </div>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard
@@ -82,7 +90,15 @@
         </section>
 
         <section>
-          <h4>Great Customer Service</h4>
+          <div class="icon-text-wrapper">
+            <img
+              src="/images/headphones.svg"
+              alt="Headphones Icon"
+              width="48"
+              height="48"
+            />
+            <h4>Great Customer<br />Service</h4>
+          </div>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard
@@ -90,7 +106,15 @@
         </section>
 
         <section>
-          <h4>Original Plants</h4>
+          <div class="icon-text-wrapper">
+            <img
+              src="/images/plant.svg"
+              alt="Plant Icon"
+              width="48"
+              height="48"
+            />
+            <h4>Original<br />Plants</h4>
+          </div>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard
@@ -98,7 +122,15 @@
         </section>
 
         <section>
-          <h4>Affordable price</h4>
+          <div class="icon-text-wrapper">
+            <img
+              src="/images/dollar-symbol.svg"
+              alt="Dollar Symbol Icon"
+              width="48"
+              height="48"
+            />
+            <h4>Affordable<br />Price</h4>
+          </div>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard
@@ -106,46 +138,53 @@
         </section>
       </div>
 
-      <div>
-        <h3>Featured Plants</h3>
-        <select name="filter" id="filter">
-          <option value="cheaper">Cheaper First</option>
-          <option value="expensive">Expensive First</option>
-          <option value="popular">Popular First</option>
-        </select>
+      <div class="featured-plants-wrapper">
+        <div class="plant-selection-header">
+          <h3>Featured Plants</h3>
+          <select name="filter" id="filter">
+            <option value="cheaper">Cheaper First</option>
+            <option value="expensive">Expensive First</option>
+            <option value="popular">Popular First</option>
+          </select>
+        </div>
+
         <hr />
-        <section>
-          <img src="images/kaktus-plant.png" alt="Kaktus Plants" />
-          <h4>Kaktus Plants</h4>
-          <p>IDR 85.000</p>
-        </section>
 
-        <section>
-          <img src="images/landark-plant.png" alt="Landark Plants" />
-          <h4>Landark Plants</h4>
-          <p>IDR 105.000</p>
-        </section>
+        <div class="plants-imgs-wrapper">
+          <section>
+            <div class="kaktus-plant featured-plant-img"></div>
+            <h4>Kaktus Plants</h4>
+            <p>IDR 85.000</p>
+          </section>
 
-        <section>
-          <img src="images/kecubung-plant.png" alt="Kecubung Plants" />
-          <h4>Kecubung Plants</h4>
-          <p>IDR 85.000</p>
-        </section>
+          <section>
+            <div class="landark-plant featured-plant-img"></div>
+            <h4>Landark Plants</h4>
+            <p>IDR 105.000</p>
+          </section>
 
-        <section>
-          <img src="images/kecubung-plant2.png" alt="Kecubung Plants" />
-          <h4>Kecubung Plants</h4>
-          <p>IDR 85.000</p>
-        </section>
+          <section>
+            <div class="kecubung-plant featured-plant-img"></div>
+            <h4>Kecubung Plants</h4>
+            <p>IDR 85.000</p>
+          </section>
 
-        <section>
-          <img src="images/kecubung-plant3.png" alt="Kecubung Plants" />
-          <h4>Kecubung Plants</h4>
-          <p>IDR 85.000</p>
-        </section>
+          <section>
+            <div class="kecubung-plant2 featured-plant-img"></div>
+            <h4>Kecubung Plants</h4>
+            <p>IDR 85.000</p>
+          </section>
+
+          <section>
+            <div class="kecubung-plant3 featured-plant-img"></div>
+            <h4>Kecubung Plants</h4>
+            <p>IDR 85.000</p>
+          </section>
+        </div>
       </div>
 
-      <div>
+      <div class="buy-more-plants-section">
+        <div class="wall-of-plants-img"></div>
         <h2>Buy more plants, it helps you to be relaxed</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida
@@ -153,14 +192,12 @@
           Nulla eu enim non mauris maximus dignissim. Maecenas vitae eros
           sapien. Quisque pellentesque tempus dignissim.
         </p>
-        <img src="images/plant-with-a-mirror.jpg" alt="Plant and a mirror" />
-        <img src="images/wall-of-plants.jpg" alt="Plants on the wall" />
+        <div class="plant-with-a-mirror-img"></div>
       </div>
 
-      <div>
+      <div class="get-your-plant-section">
         <h2>Get your favourite plant on our shop now</h2>
         <button>Visit Shop</button>
-        <img src="images/plant-in-a-hand.jpg" alt="Plant in a hand" />
       </div>
     </main>
 
