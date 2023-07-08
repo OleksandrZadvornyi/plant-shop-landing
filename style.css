@@ -172,6 +172,11 @@ header h1 {
   gap: 8px;
 }
 
+.arrow-nav span,
+.arrow-nav div {
+  cursor: pointer;
+}
+
 /* Main Styles */
 .features-container {
   display: flex;
@@ -296,6 +301,7 @@ header h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  margin-bottom: 8px;
 }
 
 .plants-imgs-wrapper > section > p {
@@ -387,6 +393,7 @@ header h1 {
   max-width: 152px;
   width: 100%;
   margin-left: 98px;
+  cursor: pointer;
 }
 
 /* Footer Styles */
