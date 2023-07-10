@@ -38,7 +38,7 @@
 
 <div align="center">
   <br/>
-  <a href="https://myplantshop.netlify.app/"><img src="website-preview.jpg" width="750" title="hover text"></a>
+  <a href="https://theplantshop.netlify.app/"><img src="website-preview.jpg" width="750" title="hover text"></a>
   <br/><br/>
 </div>
 
@@ -47,7 +47,7 @@ Plant Shop is a one-page website built using the [template](https://www.figma.co
 
 ### Deployment
 
-The website is deployed using [Netlify](https://www.netlify.com/). You can see it [here]().
+The website is deployed using [Netlify](https://www.netlify.com/). You can see it [here](https://theplantshop.netlify.app/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
