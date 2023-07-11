@@ -95,7 +95,7 @@ header h1 {
   font-weight: 500;
   font-size: 68px;
   color: var(--akana-green, #156963);
-  width: 524px;
+  max-width: 524px;
 }
 
 .header-text-content p {
@@ -104,7 +104,7 @@ header h1 {
   line-height: 32px;
   font-size: 18px;
   color: var(--kq-black, #2c1500);
-  width: 492px;
+  max-width: 492px;
   margin-top: 24px;
 }
 
@@ -256,7 +256,7 @@ header h1 {
   justify-content: space-evenly;
   margin: 24px 0 90px 0;
   flex-wrap: wrap;
-  gap: 24px;  
+  gap: 24px;
 }
 
 .featured-plant-img {
@@ -409,11 +409,16 @@ body > hr {
 }
 
 footer {
-  width: 73.9%;
+  width: 83.9%;
   margin: 0 auto 70px auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 24px;
+}
+
+.footer-sect {
+  margin: 0 auto;
 }
 
 .footer-sect-1 > span {
@@ -497,5 +502,28 @@ footer p,
   .plant-img,
   .header-nav-btn {
     display: none;
+  }
+
+  .get-your-plant-section {
+    background-position: 110% 70%;
+  }
+
+  .wall-of-plants-img {
+    display: none;
+  }
+
+  .buy-more-plants-section > h2,
+  .buy-more-plants-section > p {
+    margin-left: 0;
+  }
+
+  .plant-with-a-mirror-img {
+    margin-top: 36px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .get-your-plant-section {
+    background-image: none;
   }
 }
