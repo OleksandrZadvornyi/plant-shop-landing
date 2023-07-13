@@ -142,11 +142,17 @@
       <div class="featured-plants-wrapper">
         <div class="plant-selection-header">
           <h3>Featured Plants</h3>
-          <select name="filter" id="filter">
-            <option value="cheaper">Cheaper First</option>
-            <option value="expensive">Expensive First</option>
-            <option value="popular">Popular First</option>
-          </select>
+          <div class="dropdown">
+            <button class="dropbtn" onclick="openDropdown()">
+              Cheaper First
+              <img src="/images/chevron-down.svg" alt="Chevron Down" />
+            </button>
+            <div id="dropdown-content">
+              <p onclick="changeBtnName(this)">Cheaper First</p>
+              <p onclick="changeBtnName(this)">Expensive First</p>
+              <p onclick="changeBtnName(this)">Popular First</p>
+            </div>
+          </div>
         </div>
 
         <hr />
@@ -237,5 +243,7 @@
         <button>Submit</button>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
