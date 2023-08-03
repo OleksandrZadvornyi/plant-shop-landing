@@ -13,7 +13,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/OleksandrZadvornyi/plant-shop-website">
+  <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page">
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -22,14 +22,14 @@
   <p align="center">
     A simple one-page website about plants
     <br />
-    <a href="https://github.com/OleksandrZadvornyi/plant-shop-website"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/OleksandrZadvornyi/plant-shop-website">View Demo</a>
+    <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page">View Demo</a>
     ·
-    <a href="https://github.com/OleksandrZadvornyi/plant-shop-website/issues">Report Bug</a>
+    <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/issues">Report Bug</a>
     ·
-    <a href="https://github.com/OleksandrZadvornyi/plant-shop-website/issues">Request Feature</a>
+    <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/issues">Request Feature</a>
   </p>
 </div>
 
@@ -75,21 +75,21 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Oleksandr - [@telegram](https://t.me/oleksandr_zadvornyi) - zadvornyi.alex16@gmail.com
 
-Project Link: [https://github.com/OleksandrZadvornyi/plant-shop-website](https://github.com/OleksandrZadvornyi/plant-shop-website)
+Project Link: [https://github.com/OleksandrZadvornyi/plant-shop-landing-page](https://github.com/OleksandrZadvornyi/plant-shop-landing-page)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/OleksandrZadvornyi/plant-shop-website.svg?style=for-the-badge
-[contributors-url]: https://github.com/OleksandrZadvornyi/plant-shop-website/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/OleksandrZadvornyi/plant-shop-website.svg?style=for-the-badge
-[forks-url]: https://github.com/OleksandrZadvornyi/plant-shop-website/network/members
-[stars-shield]: https://img.shields.io/github/stars/OleksandrZadvornyi/plant-shop-website.svg?style=for-the-badge
-[stars-url]: https://github.com/OleksandrZadvornyi/plant-shop-website/stargazers
-[issues-shield]: https://img.shields.io/github/issues/OleksandrZadvornyi/plant-shop-website.svg?style=for-the-badge
-[issues-url]: https://github.com/OleksandrZadvornyi/plant-shop-website/issues
+[contributors-shield]: https://img.shields.io/github/contributors/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge
+[contributors-url]: https://github.com/OleksandrZadvornyi/plant-shop-landing-page/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge
+[forks-url]: https://github.com/OleksandrZadvornyi/plant-shop-landing-page/network/members
+[stars-shield]: https://img.shields.io/github/stars/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge
+[stars-url]: https://github.com/OleksandrZadvornyi/plant-shop-landing-page/stargazers
+[issues-shield]: https://img.shields.io/github/issues/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge
+[issues-url]: https://github.com/OleksandrZadvornyi/plant-shop-landing-page/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [product-screenshot]: website-preview.jpg
