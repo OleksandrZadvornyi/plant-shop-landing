@@ -31,6 +31,10 @@
     ·
     <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/issues">Request Feature</a>
   </p>
+
+  <p align="center">
+    <a href="https://app.netlify.com/sites/theplantshop/deploys"><img src="https://api.netlify.com/api/v1/badges/7feecaf0-2fb4-4389-b1c3-edd8b7126f60/deploy-status"></a>
+  </p>
 </div>
 
 
