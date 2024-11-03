@@ -59,10 +59,11 @@ This project does not use any libraries or frameworks. Only pure HTML and CSS ar
 
 * [![HTML][HTML]][HTML-url]
 * [![CSS][CSS]][CSS-url]
+* [![JS][JS]][JS-url]
 <br><br>
 
 
-## License
+### License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 <br><br>
@@ -79,7 +80,9 @@ Project Link: [https://github.com/OleksandrZadvornyi/plant-shop-landing-page](ht
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[HTML]: https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
+[HTML]: https://img.shields.io/badge/HTML-red?style=for-the-badge&logo=html5&logoColor=white
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
-[CSS]: https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
+[CSS]: https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white
 [CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[JS]: https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white
+[JS-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
