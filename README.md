@@ -3,11 +3,13 @@
 
 
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<p align="center">
+  <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/graphs/contributors"><img src="https://img.shields.io/github/contributors/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/network/members"><img src="https://img.shields.io/github/forks/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/stargazers"><img src="https://img.shields.io/github/stars/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/issues"><img src="https://img.shields.io/github/issues/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/blob/master/LICENSE"><img src="https://img.shields.io/github/license/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge"></a>
+</p>
 
 
 <!-- PROJECT LOGO -->
