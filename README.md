@@ -1,7 +1,3 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-
-
 <!-- PROJECT SHIELDS -->
 <p align="center">
   <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/graphs/contributors"><img src="https://img.shields.io/github/contributors/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge"></a>
@@ -50,14 +46,12 @@
 </div>
 
 Plant Shop is a one-page website built using the [template](https://www.figma.com/file/r74vhd12rfrukxGazYRSkf/Plant-shop?node-id=0%3A1&mode=dev) from [Figma](https://www.figma.com/). The topic of the website is online store for buying plants.
-
+<br><br>
 
 ### Deployment
 
 The website is deployed using [Netlify](https://www.netlify.com/). You can see it [here](https://theplantshop.netlify.app/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<br><br>
 
 ### Built With
 
@@ -65,15 +59,13 @@ This project does not use any libraries or frameworks. Only pure HTML and CSS ar
 
 * [![HTML][HTML]][HTML-url]
 * [![CSS][CSS]][CSS-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br><br>
 
 
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br><br>
 
 
 <!-- CONTACT -->
@@ -82,23 +74,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Oleksandr - [@telegram](https://t.me/oleksandr_zadvornyi) - zadvornyi.alex16@gmail.com
 
 Project Link: [https://github.com/OleksandrZadvornyi/plant-shop-landing-page](https://github.com/OleksandrZadvornyi/plant-shop-landing-page)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br><br>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge
-[contributors-url]: https://github.com/OleksandrZadvornyi/plant-shop-landing-page/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge
-[forks-url]: https://github.com/OleksandrZadvornyi/plant-shop-landing-page/network/members
-[stars-shield]: https://img.shields.io/github/stars/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge
-[stars-url]: https://github.com/OleksandrZadvornyi/plant-shop-landing-page/stargazers
-[issues-shield]: https://img.shields.io/github/issues/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge
-[issues-url]: https://github.com/OleksandrZadvornyi/plant-shop-landing-page/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[product-screenshot]: website-preview.jpg
 [HTML]: https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [CSS]: https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
