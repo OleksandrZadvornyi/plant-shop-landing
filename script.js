@@ -13,6 +13,6 @@ function changeBtnName(element) {
   const button = document.getElementsByClassName("dropbtn")[0];
   button.innerHTML =
     element.innerHTML +
-    '<img src="/images/chevron-down.svg" alt="Chevron Down" />';
+    '<img src="./images/chevron-down.svg" alt="Chevron Down" />';
   openDropdown();
 }

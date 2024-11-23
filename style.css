@@ -118,16 +118,16 @@ header h1 {
 
 .arrow-back {
   background-color: rgba(170, 170, 170, 1);
-  -webkit-mask: url("/images/arrow-back-outline.svg") no-repeat center;
-  mask: url("/images/arrow-back-outline.svg") no-repeat center;
+  -webkit-mask: url("./images/arrow-back-outline.svg") no-repeat center;
+  mask: url("./images/arrow-back-outline.svg") no-repeat center;
   width: 32px;
   height: 32px;
 }
 
 .arrow-forward {
   background-color: rgba(170, 170, 170, 1);
-  -webkit-mask: url("/images/arrow-forward-outline.svg") no-repeat center;
-  mask: url("/images/arrow-forward-outline.svg") no-repeat center;
+  -webkit-mask: url("./images/arrow-forward-outline.svg") no-repeat center;
+  mask: url("./images/arrow-forward-outline.svg") no-repeat center;
   width: 32px;
   height: 32px;
 }
@@ -293,31 +293,31 @@ header h1 {
 }
 
 .kaktus-plant {
-  background-image: url("/images/kaktus-plant.png");
+  background-image: url("./images/kaktus-plant.png");
   background-size: 330px;
   background-position: 50% 65%;
 }
 
 .landark-plant {
-  background-image: url("/images/landark-plant.png");
+  background-image: url("./images/landark-plant.png");
   background-size: 216px;
   background-position: 50% 0%;
 }
 
 .kecubung-plant {
-  background-image: url("/images/kecubung-plant.png");
+  background-image: url("./images/kecubung-plant.png");
   background-size: 216px;
   background-position: 50% 40%;
 }
 
 .kecubung-plant2 {
-  background-image: url("/images/kecubung-plant2.png");
+  background-image: url("./images/kecubung-plant2.png");
   background-size: 250px;
   background-position: 50% -300%;
 }
 
 .kecubung-plant3 {
-  background-image: url("/images/kecubung-plant3.png");
+  background-image: url("./images/kecubung-plant3.png");
   background-size: 350px;
   background-position: 50% -200%;
 }
@@ -368,7 +368,7 @@ header h1 {
 .plant-with-a-mirror-img {
   max-width: 568px;
   min-height: 250px;
-  background-image: url("/images/plant-with-a-mirror.jpg");
+  background-image: url("./images/plant-with-a-mirror.jpg");
   background-size: cover;
   background-position: 0 -80px;
   background-repeat: no-repeat;
@@ -378,7 +378,7 @@ header h1 {
 .wall-of-plants-img {
   width: 513px;
   min-height: 610px;
-  background-image: url("/images/wall-of-plants.jpg");
+  background-image: url("./images/wall-of-plants.jpg");
   background-size: cover;
   background-position: 0 100%;
   background-repeat: no-repeat;
@@ -392,7 +392,7 @@ header h1 {
   max-width: 92.65625%;
   min-height: 360px;
   background-color: #f3f4f6;
-  background-image: url("/images/plant-in-a-hand.jpg");
+  background-image: url("./images/plant-in-a-hand.jpg");
   background-size: 400px;
   background-position: 95% 70%;
   background-repeat: no-repeat;
