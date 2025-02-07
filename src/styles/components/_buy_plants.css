@@ -1,0 +1,46 @@
+.buy-more-plants-section {
+  max-width: 92.65625%;
+  margin: 0 auto;
+}
+
+.buy-more-plants-section > h2 {
+  color: var(--kq-black, #2c1500);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-left: 22px;
+  padding-top: 10px;
+}
+
+.buy-more-plants-section > p {
+  color: var(--kq-black, #2c1500);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 16px;
+  margin-left: 22px;
+  max-width: 506px;
+}
+
+.plant-with-a-mirror-img {
+  max-width: 568px;
+  min-height: 250px;
+  background-image: url('../../images/plant-with-a-mirror.jpg');
+  background-size: cover;
+  background-position: 0 -80px;
+  background-repeat: no-repeat;
+  margin-top: 74px;
+}
+
+.wall-of-plants-img {
+  width: 513px;
+  min-height: 610px;
+  background-image: url('../../images/wall-of-plants.jpg');
+  background-size: cover;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  float: right;
+  margin-left: 110px;
+}

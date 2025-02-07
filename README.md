@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="./src/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Plant Shop</h3>
@@ -41,7 +41,7 @@
 
 <div align="center">
   <br/>
-  <a href="https://theplantshop.netlify.app/"><img src="website-preview.jpg" width="750" title="hover text"></a>
+  <a href="https://theplantshop.netlify.app/"><img src="./src/images/website-preview.jpg" width="750" title="hover text"></a>
   <br/><br/>
 </div>
 

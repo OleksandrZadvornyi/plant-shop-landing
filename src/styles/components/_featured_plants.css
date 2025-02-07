@@ -1,0 +1,120 @@
+.featured-plants-wrapper {
+  margin: 84px auto 0 auto;
+  max-width: 92.65625%;
+}
+
+.plant-selection-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.plant-selection-header > h3 {
+  color: #000;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.dropdown {
+  color: #000;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.dropbtn img {
+  padding-left: 5px;
+}
+
+.plant-selection-header .dropbtn {
+  border: 1px solid var(--gray-5, #e0e0e0);
+}
+
+.plant-selection-header .dropbtn,
+.plant-selection-header #dropdown-content p {
+  background: var(--white, #fff);
+  padding: 8px 12px;
+  cursor: pointer;
+  border-collapse: collapse;
+}
+
+.plant-selection-header #dropdown-content p:hover {
+  background-color: var(--gray-5, rgba(224, 224, 224, 1));
+}
+
+.plant-selection-header #dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.featured-plants-wrapper hr {
+  color: var(--gray-5, #e0e0e0);
+}
+
+.plants-imgs-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 24px 0 90px 0;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.featured-plant-img {
+  min-width: 216px;
+  width: 100%;
+  min-height: 216px;
+  background-color: rgba(245, 245, 245, 1);
+  margin-bottom: 16px;
+  background-repeat: no-repeat;
+}
+
+.kaktus-plant {
+  background-image: url('../../images/kaktus-plant.png');
+  background-size: 330px;
+  background-position: 50% 65%;
+}
+
+.landark-plant {
+  background-image: url('../../images/landark-plant.png');
+  background-size: 216px;
+  background-position: 50% 0%;
+}
+
+.kecubung-plant {
+  background-image: url('../../images/kecubung-plant.png');
+  background-size: 216px;
+  background-position: 50% 40%;
+}
+
+.kecubung-plant2 {
+  background-image: url('../../images/kecubung-plant2.png');
+  background-size: 250px;
+  background-position: 50% -300%;
+}
+
+.kecubung-plant3 {
+  background-image: url('../../images/kecubung-plant3.png');
+  background-size: 350px;
+  background-position: 50% -200%;
+}
+
+.plants-imgs-wrapper > section > h4 {
+  color: #000;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.plants-imgs-wrapper > section > p {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}

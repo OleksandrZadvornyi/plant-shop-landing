@@ -1,0 +1,7 @@
+@import './base/_reset.css';
+@import './components/_buy_plants.css';
+@import './components/_features.css';
+@import './components/_featured_plants.css';
+@import './components/_get_plants.css';
+@import './layout/_header.css';
+@import './layout/_footer.css';
