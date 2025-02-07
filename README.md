@@ -7,7 +7,6 @@
   <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/blob/master/LICENSE"><img src="https://img.shields.io/github/license/OleksandrZadvornyi/plant-shop-landing-page.svg?style=for-the-badge"></a>
 </p>
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -35,8 +34,8 @@
   </p>
 </div>
 
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 <div align="center">
@@ -57,19 +56,18 @@ The website is deployed using [Netlify](https://www.netlify.com/). You can see i
 
 This project does not use any libraries or frameworks. Only pure HTML and CSS are used.
 
-* [![HTML][HTML]][HTML-url]
-* [![CSS][CSS]][CSS-url]
-* [![JS][JS]][JS-url]
-<br><br>
-
+- [![HTML][HTML]][HTML-url]
+- [![CSS][CSS]][CSS-url]
+- [![JS][JS]][JS-url]
+  <br><br>
 
 ### License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 <br><br>
 
-
 <!-- CONTACT -->
+
 ## Contact
 
 Oleksandr - [@telegram](https://t.me/oleksandr_zadvornyi) - zadvornyi.alex16@gmail.com
@@ -77,9 +75,9 @@ Oleksandr - [@telegram](https://t.me/oleksandr_zadvornyi) - zadvornyi.alex16@gma
 Project Link: [https://github.com/OleksandrZadvornyi/plant-shop-landing-page](https://github.com/OleksandrZadvornyi/plant-shop-landing-page)
 <br><br>
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [HTML]: https://img.shields.io/badge/HTML-red?style=for-the-badge&logo=html5&logoColor=white
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [CSS]: https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white
