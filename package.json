@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "A simple one-page website about plants - an online store for buying plants",
   "private": true,
-  "main": "index.html",
+  "source": "./src/index.html",
   "scripts": {
     "format": "prettier --write \"**/*.{js,json,css,html,md}\"",
-    "format:check": "prettier --check \"**/*.{js,json,css,html,md}\""
+    "format:check": "prettier --check \"**/*.{js,json,css,html,md}\"",
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -34,6 +36,8 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
-    "prettier": "^3.4.2"
+    "parcel": "^2.13.3",
+    "prettier": "^3.4.2",
+    "svgo": "^3.3.2"
   }
 }
