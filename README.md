@@ -24,9 +24,9 @@
     <br />
     <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page">View Demo</a>
     ·
-    <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/issues">Report Bug</a>
+    <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/issues">Request Feature</a>
+    <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 
   <p align="center">
