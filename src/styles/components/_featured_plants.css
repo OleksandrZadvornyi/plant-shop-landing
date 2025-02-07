@@ -73,13 +73,13 @@
 }
 
 .kaktus-plant {
-  background-image: url('../../images/kaktus-plant.png');
+  background-image: url('../../images/kaktus-plant.webp');
   background-size: 330px;
   background-position: 50% 65%;
 }
 
 .landark-plant {
-  background-image: url('../../images/landark-plant.png');
+  background-image: url('../../images/landark-plant.webp');
   background-size: 216px;
   background-position: 50% 0%;
 }
@@ -91,13 +91,13 @@
 }
 
 .kecubung-plant2 {
-  background-image: url('../../images/kecubung-plant2.png');
+  background-image: url('../../images/kecubung-plant2.webp');
   background-size: 250px;
   background-position: 50% -300%;
 }
 
 .kecubung-plant3 {
-  background-image: url('../../images/kecubung-plant3.png');
+  background-image: url('../../images/kecubung-plant3.webp');
   background-size: 350px;
   background-position: 50% -200%;
 }
