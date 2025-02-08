@@ -1,6 +1,6 @@
 {
   "name": "plant-shop-landing",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple one-page website about plants - an online store for buying plants",
   "private": true,
   "source": "./src/index.html",
