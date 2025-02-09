@@ -51,7 +51,7 @@ jobs:
 
       - name: Extract latest changelog entry
         run: |
-          awk '/^## /{if (++count == 2) exit} count{print}' CHANGELOG.md > RELEASE_NOTES.md
+          awk '/^### \[|^## \[/{if (++n<=1) {p=1; print} else exit} p{print}' CHANGELOG.md | grep -v "^# Changelog" | grep -v "^All notable" > RELEASE_NOTES.md
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
