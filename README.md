@@ -14,15 +14,15 @@
     <img src="./src/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Plant Shop</h3>
+  <h3 align="center">Plant Shop</h3>
 
   <p align="center">
-    A simple one-page website about plants
+    A modern, responsive landing page for an online plant shop
     <br />
     <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page">View Demo</a>
+    <a href="https://theplantshop.netlify.app">View Demo</a>
     ·
     <a href="https://github.com/OleksandrZadvornyi/plant-shop-landing-page/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
@@ -34,50 +34,137 @@
   </p>
 </div>
 
-<!-- ABOUT THE PROJECT -->
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Development](#development)
+  - [Available Scripts](#available-scripts)
+  - [Code Formatting](#code-formatting)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [Versioning](#versioning)
+- [License](#license)
+- [Contact](#contact)
+
+<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 <div align="center">
   <br/>
-  <a href="https://theplantshop.netlify.app/"><img src="./src/images/website-preview.jpg" width="750" title="hover text"></a>
+  <a href="https://theplantshop.netlify.app/"><img src="./src/images/website-preview.jpg" width="750" alt="Plant Shop Preview"></a>
   <br/><br/>
 </div>
 
-Plant Shop is a one-page website built using the [template](https://www.figma.com/file/r74vhd12rfrukxGazYRSkf/Plant-shop?node-id=0%3A1&mode=dev) from [Figma](https://www.figma.com/). The topic of the website is online store for buying plants.
-<br><br>
-
-### Deployment
-
-The website is deployed using [Netlify](https://www.netlify.com/). You can see it [here](https://theplantshop.netlify.app/).
-<br><br>
+Plant Shop is a modern, responsive landing page for an online plant store. The design is based on this [Figma template](https://www.figma.com/file/r74vhd12rfrukxGazYRSkf/Plant-shop?node-id=0%3A1&mode=dev). The website showcases various plants available for purchase with a clean, minimalist design.
 
 ### Built With
 
-This project does not use any libraries or frameworks. Only pure HTML and CSS are used.
+This project emphasizes clean, vanilla web development practices:
 
 - [![HTML][HTML]][HTML-url]
 - [![CSS][CSS]][CSS-url]
 - [![JS][JS]][JS-url]
-  <br><br>
 
-### License
+Development tools:
+- [Parcel](https://parceljs.org/) - Zero configuration build tool
+- [Prettier](https://prettier.io/) - Code formatting
+- [Standard Version](https://github.com/conventional-changelog/standard-version) - Versioning and changelog generation
+
+## Getting Started
+
+To get a local copy up and running, follow these steps:
+
+### Prerequisites
+
+- Node.js (version 18.0.0 or higher)
+  ```sh
+  node --version
+  ```
+
+### Installation
+
+1. Clone the repository
+   ```sh
+   git clone https://github.com/OleksandrZadvornyi/plant-shop-landing-page.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+
+## Development
+
+### Available Scripts
+
+- Start development server:
+  ```sh
+  npm start
+  ```
+- Build for production:
+  ```sh
+  npm run build
+  ```
+- Format code:
+  ```sh
+  npm run format
+  ```
+- Check code formatting:
+  ```sh
+  npm run format:check
+  ```
+
+### Code Formatting
+
+This project uses Prettier for consistent code formatting. The formatting is automatically checked on pull requests through GitHub Actions. To ensure your code meets the formatting standards:
+
+1. Format your code before committing:
+   ```sh
+   npm run format
+   ```
+2. Or enable format-on-save in your editor with the Prettier extension
+
+## Deployment
+
+The website is automatically deployed to [Netlify](https://www.netlify.com/) on every push to the master branch. You can view the live site at [theplantshop.netlify.app](https://theplantshop.netlify.app/).
+
+## Contributing
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+Note: Pull requests are automatically checked for code formatting using Prettier.
+
+## Versioning
+
+This project uses [Standard Version](https://github.com/conventional-changelog/standard-version) for versioning and changelog generation. The version is automatically bumped and the changelog is generated on every push to master through GitHub Actions.
+
+The workflow:
+1. Automatically determines the next version based on commit messages
+2. Updates package.json version
+3. Generates/updates CHANGELOG.md
+4. Creates a new git tag
+5. Creates a GitHub release with changelog notes
+
+## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-<br><br>
-
-<!-- CONTACT -->
 
 ## Contact
 
-Oleksandr - [@telegram](https://t.me/oleksandr_zadvornyi) - zadvornyi.alex16@gmail.com
+Oleksandr Zadvornyi - [@telegram](https://t.me/oleksandr_zadvornyi) - zadvornyi.alex16@gmail.com
 
 Project Link: [https://github.com/OleksandrZadvornyi/plant-shop-landing-page](https://github.com/OleksandrZadvornyi/plant-shop-landing-page)
-<br><br>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
 [HTML]: https://img.shields.io/badge/HTML-red?style=for-the-badge&logo=html5&logoColor=white
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [CSS]: https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white
