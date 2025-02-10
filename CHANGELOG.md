@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://github.com/OleksandrZadvornyi/plant-shop-landing/compare/v1.1.4...v1.1.5) (2025-02-10)
+
+
+### 👷 CI/CD
+
+* fix duplicate headers in release notes ([46fd60e](https://github.com/OleksandrZadvornyi/plant-shop-landing/commit/46fd60ef7bf1d56c455977348aabd1de452fb32f))
+
 ### [1.1.4](https://github.com/OleksandrZadvornyi/plant-shop-landing/compare/v1.1.3...v1.1.4) (2025-02-10)
 
 
