@@ -51,7 +51,12 @@ jobs:
 
       - name: Extract latest changelog entry
         run: |
-          sed -n "/^### \[${steps.get_version.outputs.version}]/,/^### \[/p" CHANGELOG.md | sed '$d' | grep -v "^# Changelog" | grep -v "^All notable" > RELEASE_NOTES.md
+          VERSION="v${{ steps.get_version.outputs.version }}"
+          awk -v ver="$VERSION" '
+            $0 ~ "^### \\[" ver {p=1}
+            p==1 {print}
+            p==1 && $0 ~ "^### \\[" && $0 !~ ver {exit}
+          ' CHANGELOG.md | grep -v "^# Changelog" | grep -v "^All notable" > RELEASE_NOTES.md
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
