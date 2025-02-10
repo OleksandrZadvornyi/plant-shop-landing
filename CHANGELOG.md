@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.10](https://github.com/OleksandrZadvornyi/plant-shop-landing/compare/v1.1.9...v1.1.10) (2025-02-10)
+
+
+### 📝 Documentation
+
+* update version changes in `CHANGELOG.md` ([74d89bd](https://github.com/OleksandrZadvornyi/plant-shop-landing/commit/74d89bd19ea7cfe982898ab093717a47aa5179bc))
+
 ### [1.1.9](https://github.com/OleksandrZadvornyi/plant-shop-landing/compare/v1.1.8...v1.1.9) (2025-02-10)
 
 
