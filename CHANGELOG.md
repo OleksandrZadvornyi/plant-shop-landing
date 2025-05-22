@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.12](https://github.com/OleksandrZadvornyi/plant-shop-landing/compare/v1.1.11...v1.1.12) (2025-05-22)
+
+
+### 📦 Build
+
+* **deps-dev:** bump base-x from 3.0.10 to 3.0.11 ([1a07dc0](https://github.com/OleksandrZadvornyi/plant-shop-landing/commit/1a07dc0304803d30a57e7a15ccb6c3675f85a2fb))
+* merge pull request [#1](https://github.com/OleksandrZadvornyi/plant-shop-landing/issues/1) from OleksandrZadvornyi/dependabot/npm_and_yarn/base-x-3.0.11 ([466df4c](https://github.com/OleksandrZadvornyi/plant-shop-landing/commit/466df4c7b2750d8db05a186542a4d88ccee22da8))
+
 ### [1.1.11](https://github.com/OleksandrZadvornyi/plant-shop-landing/compare/v1.1.10...v1.1.11) (2025-02-10)
 
 
